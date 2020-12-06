@@ -91,6 +91,10 @@ h1, h2, h3, h4, nav {
     border-radius: 200px;
 }
 
+.custom-h1 {
+    font-size: calc(var(--def-fs) * 1.9);
+}
+
 nav {
     overflow: hidden;
     /*background: hsla(0, 0%, 100%, 1);*/
