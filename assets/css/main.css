@@ -33,7 +33,7 @@ header {
 header h1 {
     margin: 0;
     padding: 0;
-    letter-spacing: 1rem;
+    letter-spacing: 0.75rem;
 }
 
 header img {
