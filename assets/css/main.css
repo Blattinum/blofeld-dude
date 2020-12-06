@@ -72,6 +72,10 @@ h1, h2, h3, h4, nav {
     text-align: center;
 }
 
+.content img {
+    opacity: 10%;
+}
+
 .rounded {
     border-radius: 50px 1px;
 }
