@@ -26,8 +26,7 @@ header {
     margin: 0;
     background-color: var(--theme-bgc);
     color: var(--header-color);
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 header > h1 {
@@ -48,7 +47,7 @@ h1, h2, h3, h4, nav {
 }
 
 .title {
-    width: 50%;
+    width: 100%;
 }
 
 .title a {
@@ -70,6 +69,7 @@ h1, h2, h3, h4, nav {
     width: 50%;
     margin-bottom: 3rem;
     border-bottom: 0.25rem dashed #eee;
+    text-align: center;
 }
 
 .rounded {
