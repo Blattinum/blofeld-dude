@@ -1,6 +1,6 @@
     :root {
         --header-color: #fff;
-        --theme-bgc: hsla(0,0%,10%, 1);
+        --theme-bgc: hsla(0,0%,0%, 1);
         --nav-hover-bgc: hsla(0,0%,15%, 1);
         --def-fs: 2.25rem;
     }
