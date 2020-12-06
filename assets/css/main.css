@@ -27,6 +27,7 @@ header {
     background-color: var(--theme-bgc);
     color: var(--header-color);
     text-align: center;
+    overflow: hidden;
 }
 
 header h1 {
