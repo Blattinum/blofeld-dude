@@ -7,6 +7,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -140,6 +141,16 @@ nav {
   ::selection {
       background-color: #000;
       color: whitesmoke;
+  }
+
+  .top-button {
+      background-color: goldenrod;
+      color: #000;
+  }
+
+  summary {
+      background-color: goldenrod;
+      color: #000;
   }
 
 /* CHANGE FOR MOBILE SCREENS */
