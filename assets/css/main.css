@@ -19,6 +19,8 @@ body{
     align-items: center;
     font-size: var(--def-fs);
     font-family: 'ModeSeven', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Georgia, 'Times New Roman', Times, serif;*/
+
+    overflow: hidden;
 }
 
 header {
