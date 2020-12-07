@@ -1,5 +1,5 @@
     :root {
-        --header-color: #fff;
+        --header-color: whitesmoke;
         --theme-bgc: hsla(0,0%,0%, 1);
         --nav-hover-bgc: hsla(0,0%,15%, 1);
         --def-fs: 2.25rem;
@@ -10,7 +10,7 @@ html {
 }
 
 body{
-    background-color: #fff;
+    background-color: whitesmoke;
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -112,7 +112,7 @@ nav {
   nav a {
     float: left;
     display: block;
-    color: white;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -121,12 +121,12 @@ nav {
   
   nav a:hover {
     background-color: var(--nav-hover-bgc);
-    color: white;
+    color: whitesmoke;
   }
   
   nav a.active {
     /*background-color: hsla(180, 100%, 25%, 1);*/
-    background-color: white;
+    background-color: whitesmoke;
     border-top: 0.25rem dashed #eee;
     color: black;
   }
@@ -137,6 +137,10 @@ nav {
       border-top: 0.25rem solid hsla(0, 0%, 90%, 1);
   }
 
+  ::selection {
+      background-color: #000;
+      color: whitesmoke;
+  }
 
 /* CHANGE FOR MOBILE SCREENS */
 
