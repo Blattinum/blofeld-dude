@@ -102,6 +102,8 @@ h1, h2, h3, h4, nav {
     font-size: calc(var(--def-fs) * 1.9);
 }
 
+
+
 nav {
     overflow: hidden;
     /*background: hsla(0, 0%, 100%, 1);*/
@@ -152,6 +154,12 @@ nav {
   summary {
       background-color: goldenrod;
       color: #000;
+  }
+
+  .no-style {
+    color: #000;
+    text-decoration: none;
+    cursor: crosshair;
   }
 
 /* CHANGE FOR MOBILE SCREENS */
