@@ -2,7 +2,7 @@
  * @Author: Collin Blatt 
  * @Date: 2020-12-09 21:59:50 
  * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-09 23:35:21
+ * @Last Modified time: 2020-12-10 17:28:03
  */
 
     :root {
@@ -181,6 +181,10 @@ nav {
     font-size: 2.0rem;
     margin: 4px 2px;
     cursor: pointer;
+  }
+
+  .button:hover {
+      background-color: #2b2b2b;
   }
 
 /* CHANGE FOR MOBILE SCREENS */
