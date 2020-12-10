@@ -1,8 +1,8 @@
 /*
  * @Author: Collin Blatt 
  * @Date: 2020-12-10 16:24:53 
- * @Last Modified by:   blattinum 
- * @Last Modified time: 2020-12-10 16:24:53 
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2020-12-10 16:26:12
  */
 
 let d = new Date();
@@ -61,14 +61,14 @@ function displayNotification() {
             var options = {
                 body: '💥💦💨👁‍🗨🎃🦄🦉🐠',
                 icon: '../../android-chrome-512x512.png',
-                vibrate: [100, 50, 100, 50, 100],
+                //vibrate: [100, 50, 100, 50, 100],
                 data: {
                     dateOfArrival: Date.now(),
                     primaryKey: 1
                 }
             };
             reg.showNotification(day + '.' + month + '.' + year, options);
-            //navigator.vibrate([500, 250, 500, 250, 500, 250, 500, 250, 500, 250, 500]);
+            navigator.vibrate([100, 50, 100, 50, 100]);
         });
     }
 }
