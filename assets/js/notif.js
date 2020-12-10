@@ -1,3 +1,9 @@
+/*
+ * @Author: Collin Blatt 
+ * @Date: 2020-12-10 16:24:53 
+ * @Last Modified by:   blattinum 
+ * @Last Modified time: 2020-12-10 16:24:53 
+ */
 
 let d = new Date();
 let year = d.getFullYear();
