@@ -1,3 +1,10 @@
+/*
+ * @Author: mikey.zhaopeng 
+ * @Date: 2020-12-09 21:50:41 
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2020-12-09 21:52:50
+ */
+
 let url = window.location.href;
 
 let newDate = new Date();
@@ -8,7 +15,9 @@ document.getElementsByTagName("body")[0].insertAdjacentHTML("afterbegin", `<div 
 document.getElementsByTagName("body")[0].insertAdjacentHTML("beforeend", `<footer><div  class="copyright"><a href="` + url + `">JAMES BOND IS THE PROPERTY OF IAN FLEMING PUBLICATIONS, ET AL.&mdash;WITH WHICH WE HAVE NO AFFILIATION. ALL RIGHTS RESERVED BY THEIR RESPECTIVE OWNERS.</a></div></footer>`);
 
 
-window.addEventListener("load",() =>
+window.addEventListener("load", () =>
   [...document.querySelectorAll("a[target=_blank]")]
     .forEach(lnk => lnk.setAttribute("rel", "noopener noreferrer"))
 );
+
+hello = 46;
