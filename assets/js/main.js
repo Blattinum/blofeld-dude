@@ -1,8 +1,8 @@
 /*
  * @Author: Collin Blatt
  * @Date: 2020-12-09 21:50:41 
- * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-10 14:37:53
+ * @Last Modified by: mikey.zhaopeng
+ * @Last Modified time: 2020-12-10 16:36:35
  */
 
 let url = window.location.href;
@@ -16,3 +16,7 @@ window.addEventListener("load", () =>
   [...document.querySelectorAll("a[target=_blank]")]
     .forEach(lnk => lnk.setAttribute("rel", "noopener noreferrer"))
 );
+
+function toTop() {
+  navigator.vibrate([50]);
+};

@@ -2,7 +2,7 @@
  * @Author: Collin Blatt 
  * @Date: 2020-12-10 16:24:53 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-12-10 16:33:08
+ * @Last Modified time: 2020-12-10 16:35:28
  */
 
 let d = new Date();
@@ -71,3 +71,4 @@ function displayNotification() {
         });
     }
 }
+
