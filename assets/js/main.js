@@ -2,7 +2,7 @@
  * @Author: Collin Blatt
  * @Date: 2020-12-09 21:50:41 
  * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-09 21:55:33
+ * @Last Modified time: 2020-12-09 22:23:43
  */
 
 let url = window.location.href;
