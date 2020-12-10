@@ -1,8 +1,8 @@
 /*
- * @Author: mikey.zhaopeng 
+ * @Author: Collin Blatt
  * @Date: 2020-12-09 21:50:41 
- * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-12-09 21:52:50
+ * @Last Modified by: blattinum
+ * @Last Modified time: 2020-12-09 21:55:33
  */
 
 let url = window.location.href;
@@ -19,5 +19,3 @@ window.addEventListener("load", () =>
   [...document.querySelectorAll("a[target=_blank]")]
     .forEach(lnk => lnk.setAttribute("rel", "noopener noreferrer"))
 );
-
-hello = 46;
