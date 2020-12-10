@@ -2,7 +2,7 @@
  * @Author: Collin Blatt 
  * @Date: 2020-12-09 21:59:50 
  * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-09 22:02:38
+ * @Last Modified time: 2020-12-09 22:59:14
  */
 
     :root {
@@ -167,6 +167,20 @@ nav {
     color: #000;
     text-decoration: none;
     cursor: crosshair;
+  }
+
+  .button {
+    background-color: #000;
+    font-family: 'ModeSeven', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.0rem;
+    margin: 4px 2px;
+    cursor: pointer;
   }
 
 /* CHANGE FOR MOBILE SCREENS */
