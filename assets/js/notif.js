@@ -2,7 +2,7 @@
  * @Author: Collin Blatt 
  * @Date: 2020-12-10 16:24:53 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2020-12-10 16:26:12
+ * @Last Modified time: 2020-12-10 16:28:19
  */
 
 let d = new Date();
@@ -61,14 +61,13 @@ function displayNotification() {
             var options = {
                 body: '💥💦💨👁‍🗨🎃🦄🦉🐠',
                 icon: '../../android-chrome-512x512.png',
-                //vibrate: [100, 50, 100, 50, 100],
                 data: {
                     dateOfArrival: Date.now(),
                     primaryKey: 1
                 }
             };
             reg.showNotification(day + '.' + month + '.' + year, options);
-            navigator.vibrate([100, 50, 100, 50, 100]);
+            navigator.vibrate([250, 50, 250]);
         });
     }
 }
