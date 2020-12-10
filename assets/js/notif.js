@@ -62,7 +62,7 @@ function displayNotification() {
                 }
             };
             reg.showNotification(day + '.' + month + '.' + year, options);
-            navigator.vibrate([500, 250, 500, 250, 500, 250, 500, 250, 500, 250, 500]);
+            //navigator.vibrate([500, 250, 500, 250, 500, 250, 500, 250, 500, 250, 500]);
         });
     }
 }
