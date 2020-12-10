@@ -4,6 +4,9 @@ console.log("%c💢 hello from notif.js 💢", "color: hotpink; font-family:sans
 
 Notification.requestPermission(function (status) {
     console.log('Notification permission status:', status);
+    if (status === "granted") {
+        console.log("%cThank you for subscribing! 🧡", "color: orangered; font-family:sans-serif; font-style:oblique; font-size: 32px");
+    };
 });
 
 // BEGINNING OF FUNCTIONS
