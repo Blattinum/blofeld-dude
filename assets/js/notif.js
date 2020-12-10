@@ -55,7 +55,7 @@ function displayNotification() {
             var options = {
                 body: '💥💦💨👁‍🗨🎃🦄🦉🐠',
                 icon: '../../android-chrome-512x512.png',
-                vibrate: [100, 50, 100],
+                vibrate: [100, 50, 100, 50, 100],
                 data: {
                     dateOfArrival: Date.now(),
                     primaryKey: 1
