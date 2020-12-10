@@ -40,8 +40,10 @@ console.log("%c💢 hello from notif.js 💢", "color: hotpink; font-family:sans
 
 Notification.requestPermission(function (status) {
     console.log('Notification permission status:', status);
-    if (status === "granted") {
+    if (status == "granted") {
         console.log("%cThank you for subscribing! 🧡", "color: orangered; font-family:sans-serif; font-style:oblique; font-size: 32px");
+    } else if (status == "denied") {
+        console.log("%cy u no subscribe? 😭", "color: lightblue; font-family:'Comic Sans MS', sans-serif; font-size: 32px");
     };
 });
 
