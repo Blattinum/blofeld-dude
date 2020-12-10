@@ -55,13 +55,14 @@ function displayNotification() {
             var options = {
                 body: '💥💦💨👁‍🗨🎃🦄🦉🐠',
                 icon: '../../android-chrome-512x512.png',
-                navigator.vibrate([500, 250, 500, 250, 500, 250, 500, 250, 500, 250, 500]);
+                vibrate: [100, 50, 100],
                 data: {
                     dateOfArrival: Date.now(),
                     primaryKey: 1
                 }
             };
             reg.showNotification(day + '.' + month + '.' + year, options);
+            navigator.vibrate([500, 250, 500, 250, 500, 250, 500, 250, 500, 250, 500]);
         });
     }
 }
