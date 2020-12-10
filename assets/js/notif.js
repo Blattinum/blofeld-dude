@@ -1,3 +1,39 @@
+
+let d = new Date();
+let year = d.getFullYear();
+let month = d.getMonth();
+let day = d.getDate();
+
+
+// MONTH
+if (month == 11) {
+    month = "Dec";
+} else if (month == 0) {
+    month = "Jan";
+} else if (month == 1) {
+    month = "Feb";
+} else if (month == 2) {
+    month = "Mar";
+} else if (month == 3) {
+    month = "Apr";
+} else if (month == 4) {
+    month = "May";
+} else if (month == 5) {
+    month = "Jun";
+} else if (month == 6) {
+    month = "Jul";
+} else if (month == 7) {
+    month = "Aug";
+} else if (month == 8) {
+    month = "Sep";
+} else if (month == 9) {
+    month = "Oct";
+} else if (month == 10) {
+    month = "Nov";
+} else {
+    month = "❔";
+};
+
 // NOTIFICATIONS
 
 console.log("%c💢 hello from notif.js 💢", "color: hotpink; font-family:sans-serif; font-size: 32px");
@@ -23,7 +59,7 @@ function displayNotification() {
                     primaryKey: 1
                 }
             };
-            reg.showNotification('Hello world!', options);
+            reg.showNotification(day + '.' + month + '.' + year, options);
         });
     }
 }

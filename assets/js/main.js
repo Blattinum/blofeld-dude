@@ -2,13 +2,10 @@
  * @Author: Collin Blatt
  * @Date: 2020-12-09 21:50:41 
  * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-09 22:23:43
+ * @Last Modified time: 2020-12-09 23:42:59
  */
 
 let url = window.location.href;
-
-let newDate = new Date();
-let year = newDate.getFullYear();
 
 //insert and modify header and footer
 document.getElementsByTagName("body")[0].insertAdjacentHTML("afterbegin", `<div id="top"></div><header><div class="title"><img src="./assets/img/spectre-v4.svg" width="50" height="50"><br><h1><a href="` + url + `">SPECTRE</a></h1></div></header>`);
