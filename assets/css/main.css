@@ -2,7 +2,7 @@
  * @Author: Collin Blatt 
  * @Date: 2020-12-09 21:59:50 
  * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-10 17:39:17
+ * @Last Modified time: 2020-12-10 17:42:15
  */
 
     :root {
@@ -170,7 +170,7 @@ nav {
   }
 
   .button {
-    background-color: #242424;
+    background-color: #000;
     font-family: 'ModeSeven', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: none;
     color: white;
@@ -184,7 +184,7 @@ nav {
   }
 
   .button:hover {
-      background-color: #2b2b2b;
+      background-color: #1f1f1f;
   }
 
 /* CHANGE FOR MOBILE SCREENS */
