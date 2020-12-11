@@ -1,7 +1,7 @@
 /*
  * @Author: Collin Blatt
  * @Date: 2020-12-09 21:50:41 
- * @Last Modified by: mikey.zhaopeng
+ * @Last Modified by: blattinum
  * @Last Modified time: 2020-12-10 16:36:35
  */
 
@@ -19,4 +19,8 @@ window.addEventListener("load", () =>
 
 function toTop() {
   navigator.vibrate([50]);
+};
+
+function navVib() {
+  navigator.vibrate([25]);
 };
