@@ -2,7 +2,7 @@
  * @Author: Collin Blatt 
  * @Date: 2020-12-09 21:59:50 
  * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-10 17:42:15
+ * @Last Modified time: 2020-12-11 22:06:59
  */
 
     :root {
@@ -97,6 +97,10 @@ h1, h2, h3, h4, nav {
     opacity: 5%;
 }
 
+.vid-header {
+    width: 100%;
+}
+
 .rounded {
     border-radius: 50px 1px;
 }
@@ -154,7 +158,8 @@ nav {
   }
 
   .top-button {
-      background-color: goldenrod;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);    
       color: #000;
   }
 
