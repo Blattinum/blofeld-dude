@@ -2,7 +2,7 @@
  * @Author: Collin Blatt
  * @Date: 2020-12-09 21:50:41 
  * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-11 21:51:19
+ * @Last Modified time: 2020-12-11 21:54:13
  */
 
 let url = window.location.href;
@@ -18,7 +18,7 @@ window.addEventListener("load", () =>
 );
 
 function toTop() {
-  navigator.vibrate([25]);
+  navigator.vibrate([5]);
 };
 
 function navVib() {
