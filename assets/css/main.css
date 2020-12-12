@@ -2,7 +2,7 @@
  * @Author: Collin Blatt 
  * @Date: 2020-12-09 21:59:50 
  * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-11 22:12:32
+ * @Last Modified time: 2020-12-11 22:13:13
  */
 
     :root {
@@ -81,7 +81,7 @@ h1, h2, h3, h4, nav {
 }
 
 .content {
-    width: 50%;
+    width: 75%;
     margin-bottom: 3rem;
     border-bottom: 0.25rem dashed #eee;
     text-align: center;
