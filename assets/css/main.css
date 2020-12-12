@@ -2,7 +2,7 @@
  * @Author: Collin Blatt 
  * @Date: 2020-12-09 21:59:50 
  * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-11 22:06:59
+ * @Last Modified time: 2020-12-11 22:12:32
  */
 
     :root {
@@ -136,6 +136,13 @@ nav {
   
   nav a:hover {
     background-color: var(--nav-hover-bgc);
+    background-image: none;
+    color: whitesmoke;
+  }
+
+  nav a:active {
+    background-color: var(--nav-hover-bgc);
+    background-image: none;
     color: whitesmoke;
   }
   
@@ -164,7 +171,8 @@ nav {
   }
 
   summary {
-      background-color: goldenrod;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);  
       color: #000;
   }
 
