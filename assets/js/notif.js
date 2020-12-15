@@ -2,7 +2,7 @@
  * @Author: Collin Blatt 
  * @Date: 2020-12-10 16:24:53 
  * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-10 16:35:28
+ * @Last Modified time: 2020-12-14 23:46:10
  */
 
 let d = new Date();
@@ -68,6 +68,7 @@ function displayNotification() {
             };
             reg.showNotification(day + '.' + month + '.' + year, options);
             navigator.vibrate([50, 25, 50]);
+            $.post("https://maker.ifttt.com/trigger/spectre/with/key/VYGSS8KBoMZXKSPGpkxLj");
         });
     }
 }
