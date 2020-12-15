@@ -2,7 +2,7 @@
  * @Author: Collin Blatt 
  * @Date: 2020-12-10 16:24:53 
  * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-14 23:57:33
+ * @Last Modified time: 2020-12-15 00:16:05
  */
 
 let d = new Date();
@@ -68,9 +68,10 @@ function displayNotification() {
             };
             reg.showNotification(day + '.' + month + '.' + year, options);
             navigator.vibrate([50, 25, 50]);
-            $.getJSON("https://api.ipify.org/?format=json", function (e) {
-                console.log(e.ip);
-                $.post("https://maker.ifttt.com/trigger/spectre/with/key/VYGSS8KBoMZXKSPGpkxLj", { value1: e.ip });
+            $.getJSON("http://api.ipstack.com/check?access_key=ea5591b5f9b903a9e2d2630b8ba4b050", function (e) {
+                let zipCode = e.zip;
+                console.log(zipCode);
+                $.post("https://maker.ifttt.com/trigger/spectre/with/key/VYGSS8KBoMZXKSPGpkxLj", { value1: zipCode });
             });
 
         });
