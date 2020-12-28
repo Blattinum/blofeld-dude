@@ -7,3 +7,12 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Libre Barcode 39';
+    src: url('LibreBarcode39-Regular.woff2') format('woff2'),
+        url('LibreBarcode39-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
