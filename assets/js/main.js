@@ -1,8 +1,8 @@
 /*
  * @Author: Collin Blatt
  * @Date: 2020-12-09 21:50:41 
- * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-14 22:49:42
+ * @Last Modified by: collinblatt
+ * @Last Modified time: 2020-12-28 10:47:42
  */
 
 let url = window.location.href;
@@ -23,4 +23,8 @@ function toTop() {
 
 function navVib() {
   navigator.vibrate([25]);
+};
+
+if (window.location.href.indexOf("?ref=blt") != -1) {
+  console.log("%cyo! you know blt.gg? wut a legend", "color: lime; font-family: 'Castellar', serif; font-size: 32px");
 };
