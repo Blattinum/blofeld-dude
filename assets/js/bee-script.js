@@ -1067,5 +1067,6 @@ According to all known laws of aviation, there is no way that a bee should be ab
             ON: Camera in front of Barry as he flies out the door and up into the sky. Pollen jocks fold in formation
             behind him as they zoom into the park. BARRY (to Splitz) Beautiful day to fly. "Bee Movie" - JS REVISIONS
             8/13/07 130. JACKSON Sure is. BARRY Between you and me, I was dying to get out of that office. FADE OUT:
-            "Bee Movie" - JS REVISIONS 8/13/07 131.
+            "Bee Movie" - JS REVISIONS 8/13/07 131. 
+           
 `);
