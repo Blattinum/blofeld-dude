@@ -2,7 +2,7 @@
  * @Author: Collin Blatt
  * @Date: 2020-12-09 21:50:41 
  * @Last Modified by: collinblatt
- * @Last Modified time: 2020-12-28 10:47:42
+ * @Last Modified time: 2020-12-30 14:41:48
  */
 
 let url = window.location.href;
@@ -28,3 +28,6 @@ function navVib() {
 if (window.location.href.indexOf("?ref=blt") != -1) {
   console.log("%cyo! you know blt.gg? wut a legend", "color: lime; font-family: 'Castellar', serif; font-size: 32px");
 };
+
+document.querySelector('.barcode').insertAdjacentHTML('afterbegin', '*');
+document.querySelector('.barcode').insertAdjacentHTML('beforeend', '*');
