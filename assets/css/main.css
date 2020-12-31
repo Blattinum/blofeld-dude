@@ -1,8 +1,8 @@
 /*
  * @Author: Collin Blatt 
  * @Date: 2020-12-09 21:59:50 
- * @Last Modified by: blattinum
- * @Last Modified time: 2020-12-11 22:13:13
+ * @Last Modified by: collinblatt
+ * @Last Modified time: 2020-12-31 12:47:35
  */
 
     :root {
@@ -26,6 +26,7 @@ body{
     align-items: center;
     font-size: var(--def-fs);
     font-family: 'ModeSeven', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Georgia, 'Times New Roman', Times, serif;*/
+    font-display: fallback;
 }
 
 header {
@@ -203,6 +204,7 @@ nav {
   .barcode {
     font-family: 'Libre Barcode 39', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 5.2rem;
+    font-display: block;
   }
 
 /* CHANGE FOR MOBILE SCREENS */
