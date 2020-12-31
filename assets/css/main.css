@@ -2,7 +2,7 @@
  * @Author: Collin Blatt 
  * @Date: 2020-12-09 21:59:50 
  * @Last Modified by: collinblatt
- * @Last Modified time: 2020-12-31 12:56:05
+ * @Last Modified time: 2020-12-31 13:06:38
  */
 
     :root {
@@ -26,7 +26,6 @@ body{
     align-items: center;
     font-size: var(--def-fs);
     font-family: 'ModeSeven', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Georgia, 'Times New Roman', Times, serif;*/
-    font-display: block;
 }
 
 header {
