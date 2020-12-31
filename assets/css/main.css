@@ -2,7 +2,7 @@
  * @Author: Collin Blatt 
  * @Date: 2020-12-09 21:59:50 
  * @Last Modified by: collinblatt
- * @Last Modified time: 2020-12-31 12:54:07
+ * @Last Modified time: 2020-12-31 12:56:05
  */
 
     :root {
@@ -204,7 +204,6 @@ nav {
   .barcode {
     font-family: 'Libre Barcode 39', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 5.2rem;
-    font-display: block;
   }
 
 /* CHANGE FOR MOBILE SCREENS */
