@@ -18,7 +18,7 @@ window.addEventListener("load", () =>
 );
 
 function toTop() {
-  navigator.vibrate([100, 5, 100, 5]);
+  navigator.vibrate([5]);
 };
 
 function navVib() {
